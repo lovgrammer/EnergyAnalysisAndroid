@@ -2,9 +2,11 @@
 
 EnergyAnalysisAndroid is a android energy consumption measurement application.
 It measures current and voltage using simple shell script
-
-"""cat /sys/class/power_supply/battery/voltage_now"""
-"""cat /sys/class/power_supply/battery/current_now"""
+   
+~~~
+cat /sys/class/power_supply/battery/voltage_now
+cat /sys/class/power_supply/battery/current_now
+~~~
 
 ## Build
 1) git clone https://github.com/lovgrammer/EnergyAnalysisAndroid.git
