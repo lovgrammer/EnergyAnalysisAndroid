@@ -22,6 +22,7 @@ public class EnergyService extends Service implements Runnable {
 
     @Override
     public void run() {
+	Log.i("JONGYUN", "=== RUNNING");
 	while (ongoing) {
 	    int voltage = EnergyUtils.getVoltageNow();
 	    int current = EnergyUtils.getCurrentNow();
